@@ -1,0 +1,141 @@
+body {
+    margin: 10px 20% 10px 20%;
+    padding: 0px auto 0px auto;
+    background-color: rgb(243, 245, 247);
+
+}
+
+img {
+    width: 50px;
+   object-fit: contain;
+}
+
+h1 {
+    font-size: 8ch;
+    text-align: center;
+
+}
+
+h2 {
+    color: #333;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+
+form {
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0px 15px;
+}
+
+fieldset {
+    width: 90%;
+    padding: 7px;
+    margin-top: 7px;
+}
+
+legend {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: xx-large;
+    font-display:unset;
+}
+
+.pt {
+    width: 85%;
+    height:max-content;
+    size: 70%;
+    padding: 15px;
+    margin:5px;
+    border-radius: 10px;
+    border: none;
+    border:1px solid black;
+}
+
+::placeholder {
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+    color: #9999;
+    padding: 5px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+     
+}
+
+p {
+    font-weight: bold;
+    line-height: normal;
+    font-size:large;
+}
+
+table{
+    width: 90%;  
+}
+
+table,th,td,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+tr,td {
+    font-size: medium;
+    font-family:Arial;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    word-break: break-all;
+    box-sizing: border-box;
+    word-wrap: unset;
+  
+}
+
+th {
+    padding: 5px;
+    font-weight:bolder ;
+}
+
+span {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Btn {
+    background-color:rgb(185, 209, 209);
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+   padding: 15px;
+   width: 50%;
+   border: none;
+   border-radius: 5px;
+   margin-left: 25%;
+   cursor: pointer;
+   transition: all ease-in-out 0.3s;
+   margin-bottom: 10px;
+}
+
+.Btn:hover {
+    background-color: rgb(56, 180, 180);
+}
+
+summary {
+    font-size: x-large;
+    text-align: center;
+}
+
+footer {
+    padding: 1rem;
+    background-color: aqua;
+    width: 100%;
+}
+
+marquee {
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
